@@ -29,8 +29,8 @@ var schools = [
         //order is as is on the school website, although it doesnt matter.
         schedules: [
             {
-                name: "Mon/Thurs/Fri (Regular)",
-                days: [1, 4, 5],
+                name: "Mon/Thurs(Regular)",
+                days: [1, 4],
                 classes: [
                     {
                         name: "1st Period",
@@ -104,7 +104,48 @@ var schools = [
                         endTime: {hours: 15, minutes:30}
                     }
                 ],
-            }
+            },
+            {
+                name: "May Fete Assembly",
+                days: [5],
+                classes: [
+                    {
+                        name: "1st Period",
+                        startTime: {hours: 8, minutes:25},
+                        endTime: {hours: 9, minutes:20}
+                    },
+                    {
+                        name: "TSCT",
+                        startTime: {hours: 9, minutes:20},
+                        endTime: {hours: 9, minutes:30}
+                    },
+                    {
+                        name: "2nd Period",
+                        startTime: {hours: 9, minutes:35},
+                        endTime: {hours: 10, minutes:30}
+                    },
+                    {
+                        name: "3rd Period",
+                        startTime: {hours: 10, minutes:35},
+                        endTime: {hours: 11, minutes:30}
+                    },
+                    {
+                        name: "Lunch",
+                        startTime: {hours: 11, minutes:30},
+                        endTime: {hours: 12, minutes:05}
+                    },
+                    {
+                        name: "4th Period",
+                        startTime: {hours: 12, minutes:10},
+                        endTime: {hours: 13, minutes:05}
+                    },
+                    {
+                        name: "Assembly",
+                        startTime: {hours: 13, minutes:10},
+                        endTime: {hours: 15, minutes:30}
+                    },
+                ]
+            },
         ]
     }
 ];
