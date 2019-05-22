@@ -29,8 +29,8 @@ var schools = [
         //order is as is on the school website, although it doesnt matter.
         schedules: [
             {
-                name: "Mon/Thurs/Fri (Regular)",
-                days: [1, 4, 5],
+                name: "Mon/Thurs (Regular)",
+                days: [1, 4],
                 classes: [
                     {
                         name: "1st Period",
@@ -104,6 +104,42 @@ var schools = [
                         endTime: {hours: 15, minutes:30}
                     }
                 ],
+            },
+            {
+                name: "Staff vs. Seniors Kickball Game",
+                days: [5],
+                classes: [
+                    {
+                        name: "1st Period",
+                        startTime: {hours: 8, minutes:25},
+                        endTime: {hours: 9, minutes:51}
+                    },
+                    {
+                        name: "TSCT",
+                        startTime: {hours: 9, minutes:51},
+                        endTime: {hours: 10, minutes:6}
+                    },
+                    {
+                        name: "2nd Period",
+                        startTime: {hours: 10, minutes:11},
+                        endTime: {hours: 11, minutes:37}
+                    },
+                    {
+                        name: "Lunch",
+                        startTime: {hours: 11, minutes:37},
+                        endTime: {hours: 12, minutes:28}
+                    },
+                    {
+                        name: "3rd Period",
+                        startTime: {hours: 12, minutes:33},
+                        endTime: {hours: 13, minutes:59}
+                    },
+                    {
+                        name: "4th Period",
+                        startTime: {hours: 14, minutes:4},
+                        endTime: {hours: 15, minutes:30}
+                    }
+                ]
             }
         ]
     }
